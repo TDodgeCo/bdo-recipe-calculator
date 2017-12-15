@@ -1,0 +1,15 @@
+body {
+    font-family: 'Spectral SC', serif;
+}
+.wrap {
+    min-width: 85%;
+    max-width: 1200px;
+    margin: 65px auto; 
+}
+
+
+.ingredient-table td {
+    border: 1px solid #000;
+    min-width: 200px;
+    text-align: center;
+}

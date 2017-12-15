@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="wrap">
+        <div class="form">
+            <label for="recipe">Recipe: </label>
+            <select name="recipe" id="recipeSelect">
+                <option value="beer">Beer</option>
+            </select>
+            <label for="ingredient">Ingredient: </label>
+            <select name="ingredient" id="ingredientSelect">
+                <option value="grain">Grain</option>
+                <option value="agent">Leavening Agent</option>
+                <option value="sugar">Sugar</option>
+                <option value="water">Mineral Water</option>
+            </select>
+            <label for="amount">Amount: </label>
+            <input type="number" name="amount" id="amountInput">
+            <button id="submit">Submit</button>
+        </div>
+        <div class="ingredient-table wrap">
+            <table>
+                <thead>
+                    <td>Grain</td>
+                    <td>Leavening Agent</td>
+                    <td>Sugar</td>
+                    <td>Mineral Water</td>
+                </thead>
+                <tbody>
+                    <td id="grainQuant">XYZ</td>
+                    <td id="agentQuant">XYZ</td>
+                    <td id="sugarQuant">XYZ</td>
+                    <td id="waterQuant">XYZ</td>
+                </tbody>
+            </table>
+            <h1 id="completed"></h1>
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="app.js"></script>
+</body>
+</html>
