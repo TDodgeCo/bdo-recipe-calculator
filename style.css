@@ -1,7 +1,13 @@
-body {
-    font-family: 'Spectral SC', serif;
+body {    
+    font-family: 'Roboto Condensed', sans-serif;
     background-color: #000;
     background-image: url("bdo-background.png");
+    background-repeat: no-repeat;
+    background-position: 50% -120%;
+}
+h1, h3 {
+    font-family: 'Spectral SC', serif;
+    font-weight: bold;
 }
 .wrap {
     min-width: 85%;
