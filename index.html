@@ -10,10 +10,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
     <div class="wrap panel">
-        <h1>Black Desert Online Recipe Calculator</h1>
-        <h2>Select the recipe, the ingredient that you have the most of, and the amount.</h2>
+        <h1>Black Desert Online</h1>
+        <h2>Recipe Calculator</h2>
+        <h4>How to Use It</h4>
+        <p>Select the recipe, the ingredient that you have the most of, and the amount.</p>
         <p>The calculator will tell you how many of the other ingredients you need and how many times you can complete the recipe.</p>
         <div class="form">
             <label for="recipe">Recipe: </label>
@@ -34,10 +36,10 @@
         <div class="ingredient-table">
             <table>
                 <thead>
-                    <td>Grain (5)</td>
-                    <td>Leavening Agent (2)</td>
-                    <td>Sugar (1)</td>
-                    <td>Mineral Water (6)</td>
+                    <th>Grain (5)</th>
+                    <th>Leavening Agent (2)</th>
+                    <th>Sugar (1)</th>
+                    <th>Mineral Water (6)</th>
                 </thead>
                 <tbody>
                     <td id="grainQuant"></td>
@@ -46,10 +48,10 @@
                     <td id="waterQuant"></td>
                 </tbody>
             </table>
-            <h2 id="completed"></h2>
-        </div>        
+            <h2 id="completed">Enter an ingerdient amount</h2>
+        </div>
     </div>
-    <div style="color: white;"><p>Background Image Credit: <a href="https://www.reddit.com/user/PUSClFER">/u/PUSC1FER</a></p></div>
+    <div style="color: white; position: fixed; bottom:0; right:0; margin:10px;"><p>Background Image Credit: <a href="https://www.reddit.com/user/PUSClFER">/u/PUSC1FER</a></p></div>
 
     <!-- JavaScript Files -->
     <script src="app.js"></script>
