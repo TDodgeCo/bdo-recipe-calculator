@@ -6,13 +6,6 @@ const completed = document.getElementById('completed')
 
 document.getElementById('submit').addEventListener('click', alertIngredient)
 
-const beer = {
-    grain: 5,
-    agent: 2,
-    sugar: 1,
-    water: 6
-}
-
 function setIngredient () {
     let ing = document.getElementById('ingredientSelect').value;
     return ing;

@@ -1,15 +1,20 @@
 var recipes = [{
-  fish: [
+  'fish': [
     {name: 'fisheyes', quant: 2},
     {name: 'butter', quant: 6},
     {name: 'salt', quant: 2},
     {name: 'cherry', quant: 3}
   ],
-  beer: [
+  'ipa beer': [
     {name: 'carp', quant: 5},
     {name: 'butterfly', quant: 2},
     {name: 'pepper', quant: 3},
     {name: 'milk', quant: 4}
+  ],
+  'dressing': [
+    {name: 'egg', quant: 1},
+    {name: 'mineral water', quant: 1},
+    {name: 'olive oil', quant: 2}
   ]
 }]
 
@@ -28,7 +33,7 @@ function calcIngredients (recipe, ing, amount) {
 }
 
 
-calcIngredients('beer', 'butterfly', 1700)
+calcIngredients('ipa beer', 'pepper', 1700)
 
 // console.log(recipes[0].beer)
 
