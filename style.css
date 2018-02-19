@@ -61,7 +61,8 @@ h1, h3 {
 .ingredient-table table td, .ingredient-table table th {
     border-right:solid 1px rgba(126,120,110,1);
     border-bottom: solid 1px rgba(126,120,110,1);
-    min-width: 200px;
+    min-width: 20%;
+    max-width: 20%;
     text-align: center;
     padding: 10px;
 }

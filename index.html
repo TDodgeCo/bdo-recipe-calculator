@@ -18,34 +18,29 @@
         <p>Select the recipe, the ingredient that you have the most of, and the amount.</p>
         <p>The calculator will tell you how many of the other ingredients you need and how many times you can complete the recipe.</p>
         <div class="form">
-            <label for="recipe">Recipe: </label>
-            <select name="recipe" id="recipeSelect">
-                <option value="beer">Beer</option>
-            </select>
-            <label for="ingredient">Ingredient: </label>
-            <select name="ingredient" id="ingredientSelect">
-                <option value="grain">Grain</option>
-                <option value="agent">Leavening Agent</option>
-                <option value="sugar">Sugar</option>
-                <option value="water">Mineral Water</option>
-            </select>
-            <label for="amount">Amount: </label>
-            <input type="number" name="amount" id="amountInput">
-            <button id="submit">Submit</button>
+            <div style="display: inline-block" id="recipeInput"><label for="recipe">Recipe: </label></div>
+            <div style="display: inline-block" id="ingredientInput"><label for="ingredient">Ingredient: </label></div>
+            <div style="display: inline-block" id="amountInput"><label for="amount">Amount: </label> 
+                <input type="number" id="amountSelect" placeholder="Amount of ingredient">
+            </div>
+            <input type="submit" id="submit" value="Submit">
         </div>
         <div class="ingredient-table">
             <table>
                 <thead>
-                    <th>Grain (5)</th>
-                    <th>Leavening Agent (2)</th>
-                    <th>Sugar (1)</th>
-                    <th>Mineral Water (6)</th>
+                    <th id="ingName1">Ingredient 1</th>
+                    <th id="ingName2">Ingredient 2</th>
+                    <th id="ingName3">Ingredient 3</th>
+                    <th id="ingName4">Ingredient 4</th>
+                    <th id="ingName5">Ingredient 5</th>
                 </thead>
                 <tbody>
-                    <td id="grainQuant"></td>
-                    <td id="agentQuant"></td>
-                    <td id="sugarQuant"></td>
-                    <td id="waterQuant"></td>
+                    <td id="ing1"></td>
+                    <td id="ing2"></td>
+                    <td id="ing3"></td>
+                    <td id="ing4"></td>
+                    <td id="ing5"></td>
+                    <td></td>
                 </tbody>
             </table>
             <h2 id="completed">Enter an ingredient amount</h2>
@@ -54,6 +49,9 @@
     <div style="color: white; position: fixed; bottom:0; right:0; margin:10px;"><p>Background Image Credit: <a href="https://www.reddit.com/user/PUSClFER">/u/PUSC1FER</a></p></div>
 
     <!-- JavaScript Files -->
-    <script src="app.js"></script>
+    <script src="./js/dataMainScript.js"></script>
+    <script src="./js/recipeScript.js"></script>
+    <script src="./js/ingredientScript.js"></script>
+    <script src="./js/amountScript.js"></script>
 </body>
 </html>

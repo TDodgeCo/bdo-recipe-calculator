@@ -1,3 +1,7 @@
 You are free to do whatever the hell you'd like to with this.
 
 Claim it as your own. Profit from it. Build on top of it. No credit required.
+
+If (i find this in the wild) {
+  I will tell everyone that I made it and ask you to buy me a beer.
+}

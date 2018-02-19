@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form class="form">
+    <div id="recipeInput"><label for="recipe">Recipe: </label></div>
+    <div id="ingredientInput"><label for="ingredient">Ingredient: </label></div>
+    <div id="amountInput"><label for="amount">Amount: </label> 
+      <input type="number" id="amountSelect" placeholder="Amount of ingredient">
+    </div>
+    <input type="submit" id="submit" value="Submit">
+  </form>
+  <div class="ingredient-table">
+      <table>
+          <thead>
+              <th id="ingName1">Ingredient 1</th>
+              <th id="ingName2">Ingredient 2</th>
+              <th id="ingName3">Ingredient 3</th>
+              <th id="ingName4">Ingredient 4</th>
+              <th id="ingName5">Ingredient 5</th>
+          </thead>
+          <tbody>
+              <td id="ing1"></td>
+              <td id="ing2"></td>
+              <td id="ing3"></td>
+              <td id="ing4"></td>
+              <td id="ing5"></td>
+              <td></td>
+          </tbody>
+      </table>
+      <h2 id="completed">Enter an ingredient amount</h2>
+  </div>
+
+  <script src="convertjson.js"></script>
+  <script src="recipeScript.js"></script>
+  <script src="ingredientScript.js"></script>
+  <script src="amountScript.js"></script>
+</body>
+</html>

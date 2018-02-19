@@ -1,5 +1,3 @@
-var fs = require('fs');
-
 var recipes = 
   [{
     Dressing: [
@@ -2032,35 +2030,32 @@ function calcIngredients (recipe, ing, amount) {
   let quants = recipes[0][recipe]
   for (i = 0; i < quants.length; i++) {
     if (quants[i].name == ing) {
-      let amt = Math.floor(amount / quants[i].quant) 
+      let n = Number(quants[i].quant)
+      let amt = Math.floor(amount / n)
       console.log('recipe can be crafted ' + amt + ' times')
       for (j = 0; j < quants.length; j++) {
-        let amt2 = Math.floor(amt * quants[j].quant)
+        let num = Number(quants[j].quant)
+        let amt2 = Math.floor(amt * num)
+        document.getElementById('ingName' + (j + 1)).innerHTML = quants[j].name
+        document.getElementById('ing' + (j + 1)).innerHTML = amt2
+        document.getElementById('completed').innerHTML = 'You can complete the recipe ' + amt + ' times.'
         console.log('You will require ' + amt2 + ' ' + quants[j].name)
       }
     }
   }
 }
-
-
-// calcIngredients('Arehaza Special', 'Meat Stew', 1700)
-
-// function countRecipes () {
-//   for (var recipe in recipes[0]) {
-//     console.log(recipes)
+// function calcIngredients (recipe, ing, amount) {
+//   let quants = recipes[0][recipe]
+//   for (i = 0; i < quants.length; i++) {
+//     if (quants[i].name == ing) {
+//       let amt = Math.floor(amount / quants[i].quant) 
+//       console.log('recipe can be crafted ' + amt + ' times')
+//       for (j = 0; j < quants.length; j++) {
+//         let amt2 = Math.floor(amt * quants[j].quant)
+//         console.log('You will require ' + amt2 + ' ' + quants[j].name)
+//       }
+//     }
 //   }
 // }
 
-// countRecipes()
-
-var json = Object.keys(recipes[0])
-
-
-
-fs.writeFile('titles.json', JSON.stringify(json, null, 4), function(err){
-
-  console.log('File successfully written! - Check your project directory for the output.json file');
-
-})
-
-// console.log(recipes)
+// calcIngredients('Beer', 'Starch', 297)
