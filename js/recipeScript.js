@@ -1,6 +1,6 @@
 /* RECIPE SELECT STUFF */
 
-var recipeOptions = Object.keys(recipes[0])
+var recipeOptions = Object.keys(recipes[0]).sort()
 
 function makeIngredientOptions(array) {
     // Create the select element:
