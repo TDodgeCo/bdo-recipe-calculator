@@ -2023,7 +2023,469 @@ var recipes =
         name: "Steak",
         quant: "1"
       }
-    ]
+    ],
+    "Imperial: Apprentice's Boiled Egg Cooking Box": [
+      {
+        name: "Boiled Bird Eggs",
+        quant: "20"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }  
+    ],
+    "Imperial: Apprentice's Fried Fish Cooking Box": [
+      {
+        name: "Fried Fish",
+        quant: "20"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
+    "Imperial: Skilled Cook's Meat Stew Cooking Box": [
+      {
+        name: "Meat Stew",
+        quant: "20"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
+    "Imperial: Skilled Cook's Soft Bread Cooking Box": [
+      {
+        name: "Soft Bread",
+        quant: "20"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
+    "Imperial: Skilled Cook's Fish Fillet Chip Cooking Box": [
+      {
+        name: "Fish Fillet Chip",
+        quant: "20"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
+    "Imperial: Skilled Cook's Fruit Pudding Cooking Box": [
+      {
+        name: "Fruit Pudding",
+        quant: "20"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
+    "Imperial: Professional's Meat Pie Cooking Box": [
+      {
+        name: "Meat Pie",
+        quant: "30"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
+    "Imperial: Professional's Good Smelling Cooking Box": [
+      {
+        name: "Tea With Fine Scent",
+        quant: "30"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
+    "Imperial: Professional’s Omelet Cooking Box": [
+      {
+        name: "Omelet",
+        quant: "40"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
+    "Imperial: Professional's Steak Cooking Box": [
+      {
+        name: "Steak",
+        quant: "20"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
+    "Imperial: Artisan's Meat Croquette Cooking Box": [
+      {
+        name: "Meat Croquette",
+        quant: "40"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
+    "Imperial: Artisan's Cheese Gratin Cooking Box": [
+      {
+        name: "Cheese Gratin",
+        quant: "40"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
+    "Imperial: Artisan's Desert Dumpling Cooking Box": [
+      {
+        name: "Desert Dumpling",
+        quant: "40"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
+    "Imperial: Artisan's Honey Wine Cooking Box": [
+      {
+        name: "Honey Wine",
+        quant: "40"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
+    "Imperial: Master's Seafood Pasta Cooking Box": [
+      {
+        name: "Seafood Pasta",
+        quant: "40"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
+    "Imperial: Master's Beehive Cookie Cooking Box": [
+      {
+        name: "Beehive Cookie",
+        quant: "40"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
+    "Imperial: Master's Sute Tea Cooking Box": [
+      {
+        name: "Sute Tea",
+        quant: "60"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
+    "Imperial: Master's Dark Pudding Cooking Box": [
+      {
+        name: "Dark Pudding",
+        quant: "60"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
+    "Imperial: Master's Meat Sandwich Cooking Box": [
+      {
+        name: "Meat Sandwich",
+        quant: "40"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
+    "Imperial: Master's Milk Tea Cooking Box": [
+      {
+        name: "Milk Tea",
+        quant: "50"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
+    "Imperial: Master's Ham Sandwich Cooking Box": [
+      {
+        name: "Ham Sandwich",
+        quant: "50"
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      },
+      {
+        name: "",
+        quant: ""
+      }
+    ],
   }];
 
 function calcIngredients (recipe, ing, amount) {
