@@ -6,6 +6,7 @@ function makeIngredientOptions(array) {
     // Create the select element:
     var list = document.createElement('select');
     list.setAttribute('id', 'recipeSelect')
+    list.setAttribute('style', 'max-width: 200px;')
     
     for(var i = 0; i < array.length; i++) {
         // Create the option item:
@@ -25,7 +26,7 @@ function makeIngredientOptions(array) {
     return list;
 }
 
-// Add the contents of options[0] to #foo:
+// Add the contents of recipeOptions[0] to #recipeInput:
 document.getElementById('recipeInput').appendChild(makeIngredientOptions(recipeOptions));
 
 /* INGREDIENT SELECT STUFF */
