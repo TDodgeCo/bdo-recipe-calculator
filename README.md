@@ -4,4 +4,4 @@ Currently it only works for beer, but I have plans to include more recipes in th
 
 Pull requests welcome!
 
-https://tdodgeco.github.io/bdo-recipe-calculator/
+https://bdorecipecalculator.com/
