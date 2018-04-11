@@ -1,4 +1,4 @@
-var recipes = 
+var recipes =
   [{
     Dressing: [
       {
@@ -754,7 +754,7 @@ var recipes =
         quant: "1"
       },
       {
-        name: "Essence of Liquor",
+        name: "Vinegar",
         quant: "2"
       },
       {
@@ -2044,7 +2044,7 @@ var recipes =
       {
         name: "",
         quant: ""
-      }  
+      }
     ],
     "Imperial: Apprentice's Fried Fish Cooking Box": [
       {
@@ -2510,7 +2510,7 @@ function calcIngredients (recipe, ing, amount) {
 //   let quants = recipes[0][recipe]
 //   for (i = 0; i < quants.length; i++) {
 //     if (quants[i].name == ing) {
-//       let amt = Math.floor(amount / quants[i].quant) 
+//       let amt = Math.floor(amount / quants[i].quant)
 //       console.log('recipe can be crafted ' + amt + ' times')
 //       for (j = 0; j < quants.length; j++) {
 //         let amt2 = Math.floor(amt * quants[j].quant)
