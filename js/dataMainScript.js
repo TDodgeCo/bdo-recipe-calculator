@@ -2501,7 +2501,8 @@ function calcIngredients (recipe, ing, amount) {
         let amt2 = Math.floor(amt * num)
         document.getElementById('ingName' + (j + 1)).innerHTML = quants[j].name
         document.getElementById('ing' + (j + 1)).innerHTML = '<b style="color: white;">' + amt2 + '</b>'
-        document.getElementById('completed').innerHTML = 'You can complete the recipe ' + amt + ' times.'
+        document.getElementById('completed').innerHTML = 'Completions: ' + amt
+        document.getElementById('estCP').innerHTML = 'Est. CP Turn Ins: ' + Math.floor(amt * .18)
         console.log('You will require ' + amt2 + ' ' + quants[j].name)
       }
     }

@@ -161,7 +161,7 @@ select, input {
     min-width: 100%;
 }
 
-input, #completed {
+input, #completeH2 {
     box-shadow: inset 0px 0px 30px rgba(0,0,0,.4);
     background: rgb(21,19,24); /* Old browsers */
     background: -moz-linear-gradient(-45deg, rgba(21,19,24,1) 1%, rgba(37,35,40,1) 100%); /* FF3.6-15 */
@@ -180,7 +180,7 @@ select:hover, select:active {
 }
 
 
-#completed{
+#completeH2{
     min-width: 50%;
     text-align: center;
     margin: 20px auto;
