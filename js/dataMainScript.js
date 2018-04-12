@@ -2496,28 +2496,16 @@ function calcIngredients (recipe, ing, amount) {
       let amt = Math.floor(amount / n)
       console.log('recipe can be crafted ' + amt + ' times')
       for (j = 0; j < quants.length; j++) {
+        if (quants[j].name == '') break
         let num = Number(quants[j].quant)
         let amt2 = Math.floor(amt * num)
         document.getElementById('ingName' + (j + 1)).innerHTML = quants[j].name
-        document.getElementById('ing' + (j + 1)).innerHTML = amt2
+        document.getElementById('ing' + (j + 1)).innerHTML = '<b style="color: white;">' + amt2 + '</b>'
         document.getElementById('completed').innerHTML = 'You can complete the recipe ' + amt + ' times.'
         console.log('You will require ' + amt2 + ' ' + quants[j].name)
       }
     }
   }
 }
-// function calcIngredients (recipe, ing, amount) {
-//   let quants = recipes[0][recipe]
-//   for (i = 0; i < quants.length; i++) {
-//     if (quants[i].name == ing) {
-//       let amt = Math.floor(amount / quants[i].quant)
-//       console.log('recipe can be crafted ' + amt + ' times')
-//       for (j = 0; j < quants.length; j++) {
-//         let amt2 = Math.floor(amt * quants[j].quant)
-//         console.log('You will require ' + amt2 + ' ' + quants[j].name)
-//       }
-//     }
-//   }
-// }
 
 // calcIngredients('Beer', 'Starch', 297)

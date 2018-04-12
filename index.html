@@ -35,9 +35,11 @@
         <div class="container-fluid">
             <h1>Black Desert Online</h1>
             <h2>Recipe Calculator</h2>
-            <h4>How to Use It</h4>
-            <p>Select the recipe, the ingredient that you have the most of, and the amount.</p>
-            <p>The calculator will tell you how many of the other ingredients you need and how many times you can complete the recipe.</p>
+            <div id="instructions">
+                <h4>How to Use It</h4>
+                <p>Select the recipe, the ingredient that you have the most of, and the amount.</p>
+                <p>The calculator will tell you how many of the other ingredients you need and how many times you can complete the recipe.</p>
+            </div>
             <div class="form">
                 <div style="display: inline-block" id="recipeInput"><label for="recipe">Recipe: </label></div>
                 <div style="display: inline-block" id="ingredientInput"><label for="ingredient">Ingredient: </label></div>
@@ -46,31 +48,18 @@
                 </div>
                 <button type="submit" id="submit">Submit</button>
             </div>
-            <div class="ingredient-table">
-                <div class="row ing-background">
-                    <div class="col">
-                        <h5 id="ingName1">Ingredient One</h5>
-                        <p id="ing1"></p>
-                    </div>
-                    <div class="col">
-                        <h5 id="ingName2">Ingredient Two</h5>
-                        <p id="ing2"></p>
-                    </div>
-                    <div class="col">
-                        <h5 id="ingName3">Ingredient Three</h5>
-                        <p id="ing3"></p>
-                    </div>
-                    <div class="col">
-                        <h5 id="ingName4">Ingredient Four</h5>
-                        <p id="ing4"></p>
-                    </div>
-                    <div class="col">
-                        <h5 id="ingName5">Ingredient Five</h5>
-                        <p id="ing5"></p>
-                    </div>
-                </div>
-            </div>
             <h2 id="completed">Enter an ingredient amount</h2>
+            <div id="ingList" class="ingredient-table hide-el">
+              <div class="row ing-background">
+                <ul class="ul-style">
+                  <li><u><span id="ingName1">Ingredient One</span></u> <br> <span id="ing1"></span></li>
+                  <li><u><span id="ingName2">Ingredient Two</span></u> <br> <span id="ing2"></span></li>
+                  <li><u><span id="ingName3">Ingredient Three</span></u> <br> <span id="ing3"></span></li>
+                  <li><u><span id="ingName4">Ingredient Four</span></u> <br> <span id="ing4"></span></li>
+                  <li><u><span id="ingName5">Ingredient Five</span></u> <br> <span id="ing5"></span></li>
+                </ul>
+              </div>
+            </div>
         </div>
     </div>
 
