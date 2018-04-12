@@ -6,5 +6,6 @@ document.getElementById('submit').addEventListener('click', function(event) {
 
   document.getElementById('ingList').classList.remove('hide-el')
   document.getElementById('instructions').classList.toggle('hide-el')
+  window.location.replace('/#completed')
   calcIngredients(theRecipe, theIngredient, theAmount)
 })
